@@ -1,25 +1,7 @@
 * { 
     padding: 0;margin: 0;box-sizing: border-box; 
 }
-/* @font-face {
-    font-family: Roboto Condensed;
-    src: url(https://fonts.google.com/specimen/Roboto+Condensed?query=Roboto+Condensed);
-}
 
-@font-face {
-    font-family: Architects Daughter;
-    src: url();
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url();
-}
-
-@font-face {
-    font-family: Zen Kurenaido;
-    src: url();
-} */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
