@@ -1,0 +1,128 @@
+* { 
+    padding: 0;margin: 0;box-sizing: border-box; 
+}
+/* @font-face {
+    font-family: Roboto Condensed;
+    src: url(https://fonts.google.com/specimen/Roboto+Condensed?query=Roboto+Condensed);
+}
+
+@font-face {
+    font-family: Architects Daughter;
+    src: url();
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url();
+}
+
+@font-face {
+    font-family: Zen Kurenaido;
+    src: url();
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.google.com/specimen/Architects+Daughter?query=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+header{
+    height: 50PX;
+    background-color:rgb(202, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.blue{
+    height: 70vh;
+    background-color:#4D8BBC;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.sketch1{
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+    font-style: italic;
+    text-decoration: line-through;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+.spiderMan{
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+    color: #EDAC4D;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.para{
+    text-indent: 25px;
+    width: 55vw;
+    font-family: 'Roboto', sans-serif;
+    font: weight 10px;
+    padding-top: 50px;
+}
+
+.img1{
+    align-items: center;
+    border-style: none;
+}
+
+.img1>img{
+    float: right;
+    width: 25vw;
+    max-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.yellow{
+    height: 70vh;
+    background-color:#EDAC4D;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.img2>img{
+    float: right;
+    width: 25vw;
+    max-height: 100%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.ironMan{
+    text-transform: uppercase;
+    font-family: 'Zen Kurenaido', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: #E4290A;
+    letter-spacing: 3px;
+}
+
+.sketch2{
+    text-transform: uppercase;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-style: italic;
+    text-decoration: line-through;
+    padding-top: 70px;
+    font-size: 20px;
+}
